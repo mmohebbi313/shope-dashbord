@@ -1,0 +1,37 @@
+.container{
+    position: sticky;
+    background-color: rgb(248, 252, 255);
+    /* width: 17%; */
+    flex: 1;
+    height: 100vh;
+}
+.group-div{
+   margin-top: 15px;
+   margin-left: 15px; 
+}
+.ul-div{
+    list-style: none;
+    margin-left: -25px;
+    cursor: pointer;
+}
+.li-div{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 7px;
+    color: rgb(104, 104, 104);
+    padding: 3px 5px 3px 5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.li-div:hover {
+    background-color: rgb(233, 243, 254);
+}
+
+.h3-div{
+    color: rgb(190, 189, 189);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
