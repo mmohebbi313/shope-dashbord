@@ -1,5 +1,8 @@
 # 🛍️ Admin Dashboard for E-commerce Store
 
+# Click on the link below to see the preview.
+Link : https://shop-dashbord.vercel.app/
+
 This project is a modern Admin Dashboard built using **React.js**, **JavaScript**, **CSS**, and **React Icons**. It provides a clean and intuitive interface for managing an online store, including features like product management, order tracking, and user analytics.
 
 ## 🚀 Features

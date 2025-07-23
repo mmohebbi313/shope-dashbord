@@ -51,47 +51,47 @@ let xAxisData = [
 
 let Members = [
     {
-        id:1 , username : "Mohamad Mohebbi" ,title:"Front-end Developer" , img: "img/myimg.jpg"
+        id:1 , username : "Arta Khosravani" ,title:"International businessman" , img: "img/arta.jpg"
     },
     {
-        id:2 , username : "Mohammad Babai" ,title:"Back-end Developer" , img: "img/myimg.jpg"
+        id:2  , username : "Mohammad Babai" ,title:"Back-end Developer" , img: "img/babi.jpg"
     },
     {
-        id:3 , username : "ali Rostami" ,title:"Hacker" , img: "img/myimg.jpg"
+        id:3 , username : "ali Mohammadi" ,title:"Teacher" , img: "img/ali.jpg"
     },
     {
-        id:4 , username : "morteza Kakavand" ,title:"Ui/Ux Desiner" , img: "img/myimg.jpg"
+        id:4 , username : "Mohamad Mohebbi" ,title:"Front-end Developer" , img: "img/myimg.jpg"
     },
 ]
 
 const transactions = [
     {
         id: 1,
-        customer: 'morteza Kakavand',
+        customer: "Arta Khosravani",
         date: '12 Jun 2022',
         amount: 123,
         status: 'Approved',
-        img: "img/myimg.jpg"
+        img: "img/arta.jpg"
     },
     {
         id: 2,
-        customer: 'ali Rostami',
+        customer:  "Mohammad Babai",
         date: '23 Jul 2022',
         amount: 123,
         status: 'Declined',
-        img: "img/myimg.jpg"
+        img: "img/babi.jpg"
     },
     {
         id: 3,
-        customer: 'Mohammad Babai',
+        customer: "ali Mohammadi",
         date: '28 May 2022',
         amount: 123,
         status: 'Pending',
-        img: "img/myimg.jpg"
+        img: "img/ali.jpg"
     },
     {
         id: 4,
-        customer: 'Mohamad Mohebbi',
+        customer: "Mohamad Mohebbi",
         date: '1 Feb 2022',
         amount: 123,
         status: 'Approved',
