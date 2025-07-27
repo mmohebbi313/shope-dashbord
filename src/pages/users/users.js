@@ -12,7 +12,7 @@ import { MdNavigateBefore } from "react-icons/md";
 
 export default function Users (){
 
-    let [dataUser , setDataUser] = useState(userRows)
+    let [dataUser , setDataUser] = useState([])
     let [number , setNumber] = useState(1)
 
     fetch('https://api.escuelajs.co/api/v1/users')
