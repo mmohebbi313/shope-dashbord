@@ -24,12 +24,18 @@
         box-shadow: 0px 0px 7vw rgb(229, 228, 228);
         z-index: 999;
     }
+    .div-icons{
+        display: flex;
+        justify-content: center;
+        margin-top: -1.2vw;
+    }
+
 }
 .right-div{
     display: flex;
     margin-right: 2vw;
     align-items: center;
-    gap: 10px;
+    gap: 0.5vw;
 }
 .mohebbi{
     font-family: 'Courier New', Courier, monospace;
@@ -44,8 +50,8 @@
     cursor: pointer;
 }
 .icon{
-    width: 1.7vw;
-    height: 1.7vw;
+    width: 2vw;
+    height: 2vw;
     color: rgb(113, 113, 113);
     cursor: pointer;
 }
@@ -63,4 +69,11 @@
     font-size: 0.8vw;
     padding-top: 0.03vw;
     color: white;
+}
+.div-icons{
+    display: flex;
+    justify-content: center;
+}
+.div-icons div{
+    margin-right: 0.5vw;
 }

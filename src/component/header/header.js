@@ -12,7 +12,9 @@ export default function Header (){
           <div className="left-div">
             <h1 className="mohebbi">Mohebbi Shope...</h1>
           </div>
+          
           <div className="right-div">
+          <div className="div-icons">
             <div className="notif">
             <IoMdNotificationsOutline className="icon"/>
             <span className="span">2</span>
@@ -24,6 +26,7 @@ export default function Header (){
             <div>
             <IoSettingsOutline className="icon"/>
             <span className="span">11</span>
+            </div>
             </div>
             <div>
                 <img src="/img/myimg.jpg" alt="my img" className="img"/>
