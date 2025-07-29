@@ -12,11 +12,11 @@
     border-radius: 10px;
 } */
 .table-div{
+    box-shadow: none;
     /* flex: 5; */
     width: 100%;
     margin: 20px;
     margin-top: 5px;
-    box-shadow: 0px 0px 15px -10px black;
     padding: 20px;
     height: fit-content;
     /* width: 100%; */
@@ -99,4 +99,35 @@
     display: flex;
     margin-left: 1vw;
     flex-direction: row;
+}
+.button-pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    background-color: rgba(141, 190, 243, 0.318);
+    margin-right: 0.5vw;
+    border: none;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 0.4vw;
+    box-shadow: 0px 0px 1vw -0.4vw black;
+    cursor: pointer;
+}
+.buty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(152, 149, 149, 0.318);
+    border: none;
+    margin-right: 0.5vw;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 0.4vw;
+    cursor: pointer;
 }
