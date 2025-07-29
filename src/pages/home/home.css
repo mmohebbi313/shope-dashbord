@@ -3,7 +3,13 @@
     flex-direction: column;
     flex: 4;
 }
-
+@media( max-width: 767px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+    } 
+}
 .top-div{
     display: flex;
     flex-direction: column;
