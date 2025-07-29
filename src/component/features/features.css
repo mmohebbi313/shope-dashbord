@@ -4,6 +4,14 @@
   justify-content: space-between;
 }
 
+@media( max-width: 767px){
+    .features {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }  
+}
 .featureItem {
     flex: 1;
     margin: 0px 20px;

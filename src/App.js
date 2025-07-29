@@ -9,13 +9,13 @@ function App() {
 
   let importRoutes = useRoutes(MainRout)
   return (
-   <>
+   <div className='div'>
     <Header/>
     <div className='div-app'>
       <SideBar/>
       {importRoutes}
     </div>
-   </>
+   </div>
   );
 }
 

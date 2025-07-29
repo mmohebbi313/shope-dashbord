@@ -14,3 +14,12 @@
     flex-direction: row;
     height: fit-content;
 }
+@media( max-width:767px){
+    .bottom-div{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+}

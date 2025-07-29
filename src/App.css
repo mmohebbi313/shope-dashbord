@@ -1,9 +1,14 @@
 * {
   margin: 0;
 }
+
+.div{
+  width: 100%;
+}
+
 .div-app{
   display: flex;
-  margin-top: 70px;
+  margin-top: 5vw;
 }
 
 .link {
