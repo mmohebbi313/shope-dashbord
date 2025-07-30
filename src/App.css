@@ -18,6 +18,16 @@
 
 @media( max-width: 767px){
   .side{
+    position: absolute;
     margin-left: -30vw;
   }
+  .show{
+    height: 100%;
+    width: 60vw;
+    position: absolute;
+    margin-top: -1vw;
+    margin-left: 0;
+    z-index: 998;
+  }
+
 }

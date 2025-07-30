@@ -5,6 +5,16 @@
     flex: 1;
     height: 100vh;
 }
+@media ( max-width: 767px) {
+    .container{
+        position: relative;
+        background-color: rgb(248, 252, 255);
+        /* width: 17%; */
+        height: 160vh;
+        flex: 1;
+        padding-top: 7vw;
+    }
+}
 .group-div{
    margin-top: 15px;
    margin-left: 15px; 

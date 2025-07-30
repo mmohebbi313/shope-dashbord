@@ -16,6 +16,16 @@
     z-index: 999;
 }
 @media( max-width: 767px){
+    .mohebbi{
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(4, 4, 169);
+        cursor: pointer;
+        font-size: 30px;
+        margin-top: 1vw;
+        margin-right: 1vw;
+    }
+}
+@media( max-width: 767px){
     .first-div{
         position: fixed;
         background-color: white;
@@ -55,7 +65,11 @@
         border-radius: 50%;
         cursor: pointer;
     }
+    .left-div{
+        display: flex;
+    }
 }
+
 .right-div{
     display: flex;
     margin-right: 2vw;
@@ -101,4 +115,40 @@
 }
 .div-icons div{
     margin-right: 0.5vw;
+}
+.button{
+    display: none;
+}
+@media( max-width : 767px){
+    .button{
+        width: 12vw;
+        height: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 2vw;
+        padding: 1vw , 0.8vw;
+        cursor: pointer;
+        padding-left: 1.5vw;
+        box-shadow: 0px 0px 2vw -1vw black;
+        background-color: white;
+    }
+}
+.navi{
+    width: 5vw;
+    height: 5vw;
+    size: 20px;
+    margin-top: -0.1vw;
+    margin-left: 0.1vw;
+    transition: all 0.1s ease;
+}
+.naviclick{
+    width: 5vw;
+    height: 5vw;
+    size: 20px;
+    margin-top: -0.1vw;
+    margin-left: 0.1vw;
+    transform: rotate(90deg);
+    transition: all 0.1s ease;
 }
