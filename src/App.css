@@ -15,3 +15,9 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media( max-width: 767px){
+  .side{
+    margin-left: -30vw;
+  }
+}

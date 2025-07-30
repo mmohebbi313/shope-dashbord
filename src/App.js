@@ -12,7 +12,9 @@ function App() {
    <div className='div'>
     <Header/>
     <div className='div-app'>
+      <div className='side'>
       <SideBar/>
+      </div>
       {importRoutes}
     </div>
    </div>
