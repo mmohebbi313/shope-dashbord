@@ -136,14 +136,10 @@
     }
 }
 .navi{
-    size: 20px;
-    margin-top: -0.1vw;
     margin-left: 0.1vw;
     transition: all 0.1s ease;
 }
 .naviclick{
-    size: 20px;
-    margin-top: -0.1vw;
     margin-left: 0.1vw;
     transform: rotate(90deg);
     transition: all 0.1s ease;
