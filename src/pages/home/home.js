@@ -16,7 +16,7 @@ export default function Home (){
 
 <div className="bottom-div">
 <WidgetSm/>
-<WidgetLg/> 
+{/* <WidgetLg/>  */}
 </div>
 </div>
  );
