@@ -67,14 +67,16 @@ export default function Users (){
            <td className="td-class">{data.email}</td>
            <td className="td-class">{data.role}</td>
            <td className="td-button-class">
+            <div className="div-button">
             <Link to = {`/user/${data.id}`} >
                <button className="button-ed">
-               <MdEdit style={{color:"green" , fontSize:"17px"}}/>
+               <MdEdit style={{color:"green" , fontSize:"10px"}}/>
                </button>
                </Link>
                <button className="button-de" onClick={() => userDelete(data.id)}>
-               <MdDelete style={{color:"red" , fontSize:"17px"}}/>
+               <MdDelete style={{color:"red" , fontSize:"10px"}}/>
                </button>
+               </div>
            </td>
        </tr> 
         ))}
