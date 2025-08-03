@@ -42,7 +42,60 @@ export default function Users (){
          setNumber(number)
     }
 
+    let wind = window.innerWidth
+
  return(
+  wind <= 767 ? (
+<div className="table-div1">
+    {lastAction.length ? (
+        <table className="table-div">
+        <tr className="tr-class">
+            <th className="th-class">ID</th>
+            <th className="th-class">User</th>
+            <th className="th-class">Email</th>
+            <th className="th-class">Role</th>
+            <th className="th-class-a">Action</th>
+        </tr>
+        {lastAction.map(data => (
+           <tr className="tr-user">
+           <td className="td-class">{data.id}</td>
+           <Link to='/' className="link">
+           <td className="td-user-class">
+               <img src={data.avatar} alt="my img" className="class-img"/>
+               {data.username}</td>
+               </Link>
+           <td className="td-class">{data.email}</td>
+           <td className="td-class">{data.role}</td>
+           <td className="td-button-class">
+            <Link to = {`/user/${data.id}`} >
+               <button className="button-ed">
+               <MdEdit style={{color:"green" , fontSize:"17px"}}/>
+               </button>
+               </Link>
+               <button className="button-de" onClick={() => userDelete(data.id)}>
+               <MdDelete style={{color:"red" , fontSize:"17px"}}/>
+               </button>
+           </td>
+       </tr> 
+        ))}
+    
+    </table>
+    ) : (
+        <h3 style={{color:"red", marginBottom:"10px"}}>Loading...</h3>
+    )}
+
+    <div className="div-pagein">
+    <button className="buty" onClick={() => whatUserNR() }><MdNavigateBefore/></button>
+    {pagecount.map(ff => (
+    ff > 0 && ff + 1 > number - 1 && ff + 1 < number + 3 && (
+        <button className={ ff == number ? "button-active"   : "buty" } onClick={() => whatUserNU(ff)}>{ff}</button> 
+
+    ) 
+    ))}
+    <button className="buty" onClick={() => whatUserNP() }><MdNavigateNext/></button>
+    </div>
+</div>
+ ) : (
 <div className="table-div1">
     {lastAction.length ? (
         <table className="table-div">
@@ -94,5 +147,8 @@ export default function Users (){
     <button className="buty" onClick={() => whatUserNP() }><MdNavigateNext/></button>
     </div>
 </div>
+ )
+
+
  );
 }
