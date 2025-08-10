@@ -11,12 +11,12 @@ export default function Home (){
  return(
 <div className="home">
 
-<Feature/>
- {/* <Chart grid data={xAxisData} datakey='Sale' title="User Analytics"/>  */}
+{/* <Feature/> */}
+ <Chart grid data={xAxisData} datakey='Sale' title="User Analytics"/> 
 
 <div className="bottom-div">
 <WidgetSm/>
- <WidgetLg/>  
+<WidgetLg/>  
 </div>
 </div>
  );
