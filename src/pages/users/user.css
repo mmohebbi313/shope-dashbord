@@ -1,0 +1,208 @@
+.class-img{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+}
+/* .main-div{
+    flex: 5;
+    box-shadow: 0px 0px 15px -10px black;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 0px 20px 0px 20px;
+    border-radius: 10px;
+} */
+.table-div{
+    box-shadow: none;
+    /* flex: 5; */
+    width: 100%;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 20px;
+    height: fit-content;
+    /* width: 100%; */
+    /* margin-top: 100px;   */
+}
+@media( max-width : 767px){
+    .table-div{
+        box-shadow: none;
+        /* flex: 5; */
+        width: 100%;
+        margin-top: 5px;
+        width: 100%;
+        height: fit-content;
+        /* width: 100%; */
+        /* margin-top: 100px;   */
+    }
+}
+.table-div1{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 2vw;
+    margin-top: 5px;
+    box-shadow: 0px 0px 15px -10px black;
+    width: 80%;
+    padding: 20px;
+    height: fit-content;
+    /* width: 100%; */
+    /* margin-top: 100px;   */
+}
+@media( max-width: 767px){
+    .table-div1{
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+
+        margin-top: 5px;
+        box-shadow: 0px 0px 15px -10px black;
+        width: 80%;
+        height: fit-content;
+        /* width: 100%; */
+        /* margin-top: 100px;   */
+    }
+}
+
+.td-class{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.td-user-class{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+/* .tr-user{
+    margin-top: -50px;
+} */
+
+.td-button-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.th-class{
+    border-left: solid 2px rgb(142, 141, 141);
+}
+
+.th-class-a{
+    border-left: solid 2px rgb(142, 141, 141);
+    border-right: solid 2px rgb(142, 141, 141);
+}
+
+.button-ed{
+    display: flex;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(212, 250, 196);
+    align-items: center;
+    justify-content: center;
+    padding: 7px 12px 7px 12px;
+    cursor: pointer;
+}
+@media (max-width: 767px){
+    .button-ed{
+        display: flex;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(212, 250, 196);
+        align-items: center;
+        justify-content: center;
+        padding: 6px 10px 6px 10px;
+        cursor: pointer;
+        
+    } 
+
+}
+
+.button-de{
+    display: flex;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(250, 207, 196);
+    align-items: center;
+    justify-content: center;
+    padding: 7px 12px 7px 12px;
+    cursor: pointer;
+}
+@media (max-width: 767px){
+    .button-de{
+        display: flex;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(250, 207, 196);
+        align-items: center;
+        justify-content: center;
+        padding: 6px 10px 6px 10px;
+        cursor: pointer;
+    } 
+
+}
+
+.tr-user {
+    border-top: solid 2px rgb(142, 141, 141);
+}
+.div-pagein{
+    width: auto;
+    display: flex;
+    margin-left: 1vw;
+    flex-direction: row;
+}
+.button-pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    background-color: rgba(141, 190, 243, 0.318);
+    margin-right: 0.5vw;
+    border: none;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px -4px black;
+    cursor: pointer;
+}
+.buty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(152, 149, 149, 0.318);
+    border: none;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.div-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media ( max-width : 767px){
+    .div-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,31 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+@media( max-width: 767px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        /* flex: 2; */
+    } 
+}
+.top-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-div{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+@media( max-width:767px){
+    .bottom-div{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+}

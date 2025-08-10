@@ -1,0 +1,12 @@
+.chart{
+    margin-top: 30px;
+    box-shadow: 0 0 15px -10px #000000bf;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.h3{
+    margin: 15px;
+    margin-bottom: 20px;
+}
