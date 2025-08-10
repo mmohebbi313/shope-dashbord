@@ -12,7 +12,7 @@ export default function Home (){
 <div className="home">
 
 <Feature/>
- <Chart grid data={xAxisData} datakey='Sale' title="User Analytics"/> 
+ {/* <Chart grid data={xAxisData} datakey='Sale' title="User Analytics"/>  */}
 
 <div className="bottom-div">
 <WidgetSm/>
