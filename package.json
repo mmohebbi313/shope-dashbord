@@ -15,10 +15,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
-<<<<<<< HEAD
     "react-router": "^7.8.0",
-=======
->>>>>>> b6a37dbde9d25d31f74c5048b0385167d1bc5e84
     "react-router-dom": "^7.6.3",
     "react-scripts": "5.0.1",
     "recharts": "^3.0.2",
