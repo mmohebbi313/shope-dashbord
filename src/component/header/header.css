@@ -15,60 +15,6 @@
     box-shadow: 0px 0px 7vw rgb(229, 228, 228);
     z-index: 999;
 }
-@media( max-width: 767px){
-    .mohebbi{
-        font-family: 'Courier New', Courier, monospace;
-        color: rgb(4, 4, 169);
-        cursor: pointer;
-        font-size: 30px;
-        margin-top: 1vw;
-        margin-right: 1vw;
-    }
-}
-@media( max-width: 767px){
-    .first-div{
-        position: fixed;
-        background-color: white;
-        top: 0;
-        width: 100%;
-        box-shadow: 0px 0px 7vw rgb(229, 228, 228);
-        z-index: 999;
-    }
-    .div-icons{
-        display: flex;
-        justify-content: center;
-        margin-top: -1.2vw;
-    }
-    .icon{
-        width: 5vw;
-        height: 5vw;
-        color: rgb(113, 113, 113);
-        cursor: pointer;
-    }
-    .mohebbi{
-        font-family: 'Courier New', Courier, monospace;
-        color: rgb(4, 4, 169);
-        cursor: pointer;
-        font-size: 20px;
-    }
-    .main-div{
-        display: flex;
-        width: 100%;
-        height: 8vw;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 40px 0px 20px;
-    }
-    .img{
-        width: 6vw;
-        height: 6vw;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-    .left-div{
-        display: flex;
-    }
-}
 
 .right-div{
     display: flex;
@@ -119,22 +65,7 @@
 .button{
     display: none;
 }
-@media( max-width : 767px){
-    .button{
-        width: 12vw;
-        height: 5vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: none;
-        border-radius: 2vw;
-        padding: 1vw , 0.8vw;
-        cursor: pointer;
-        padding-left: 1.5vw;
-        box-shadow: 0px 0px 2vw -1vw black;
-        background-color: white;
-    }
-}
+
 .navi{
     margin-left: 0.1vw;
     transition: all 0.1s ease;
