@@ -14,14 +14,17 @@ export default function Home (){
 {/* <Feature/>
  <Chart grid data={xAxisData} datakey='Sale' title="User Analytics"/>  */}
 
-{/* <div className="bottom-div">
+ <div className="bottom-div">
 <WidgetSm/>
 <WidgetLg/>  
-</div> */}
+</div>
 </div>
  );
 }
 
+
+
+/////////
 {/* <>
 <div className="home">
 <Feature/>
