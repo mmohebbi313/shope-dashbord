@@ -13,7 +13,7 @@ export default function Header ({show , setShow}){
         <div className="first-div">
         <div className="main-div">
           <div className="left-div">
-            <h1 className="mohebbi">Mohebbi Shope...</h1>
+            
             <button onClick={ ()=> setShow(!show)} className="button">
               
               <p>Menu</p>
@@ -21,12 +21,20 @@ export default function Header ({show , setShow}){
               <MdOutlineNavigateNext className={show ? "naviclick" : "navi"} />
             </button>
           </div>
+
+          <div>
+          
+          <h1 className="mohebbi">Mohebbi Shope</h1>
+ 
+          </div>
           
           <div className="right-div">
           <div className="div-icons">
             <div className="notif">
             <IoMdNotificationsOutline className="icon"/>
-            <span className="span">2</span>
+            <span className="span">
+              
+              2</span>
             </div>
             <div>
             <CiGlobe className="icon"/>
