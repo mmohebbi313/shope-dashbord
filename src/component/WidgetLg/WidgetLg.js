@@ -7,6 +7,36 @@ export default function WidgetLg() {
   };
 
   return (
+
+    window.innerWidth <= 767 ? (
+        <div className="WidgetLg">
+      <h3 className="WidgetLgTitle">Latest TransActions</h3>
+      <table className="WidgetLgTable">
+        <tr className="WidgetLgTr">
+          <th className="WidgetLgTh">Customer</th>
+          <th className="WidgetLgTh">Date</th>
+          <th className="WidgetLgTh">Amout</th>
+
+        </tr>
+
+        {transactions.map((transaction) => (
+          <tr key={transaction.id} className="WidgetLgTr">
+            <td className="WidgetLgUser">
+              <img src={transaction.img} className="WidgetLgImg" />
+              <span className="WidgetLgName">{transaction.customer}</span>
+            </td>
+            <td className="WidgetLgDate">{transaction.date}</td>
+
+            <td className="WidgetLgAmount">${transaction.amount}</td>
+
+            
+          </tr>
+        ))}
+      </table>
+    </div>
+
+    ) :
+    (
     <div className="WidgetLg">
       <h3 className="WidgetLgTitle">Latest TransActions</h3>
       <table className="WidgetLgTable">
@@ -34,5 +64,7 @@ export default function WidgetLg() {
         ))}
       </table>
     </div>
+
+      )
   );
 }

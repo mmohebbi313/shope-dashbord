@@ -14,11 +14,16 @@
         /* flex: 2; */
         margin-right: -0.3vw;
         /* background-color: aquamarine; */
-        padding: 20px;
+        /* padding: 20px; */
         width: 75%;
         box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
         margin-top: 1.5vw;
     } 
+    .WidgetLgTable {
+    width: 100%;
+    border-spacing: 20px;
+    margin-left: -3.5vw;
+}
 }
 
 .WidgetLgTitle {
