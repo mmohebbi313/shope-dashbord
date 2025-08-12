@@ -64,7 +64,7 @@ export default function Users (){
                <img src={data.avatar} alt="my img" className="class-img"/>
                {data.username}</td>
                </Link>
-           <td className="td-class">{data.email}</td>
+           <td className="td-classemail"><p className="p-class">{data.email}</p></td>
            <td className="td-class">{data.role}</td>
            <td className="td-button-class">
             <div className="div-button">

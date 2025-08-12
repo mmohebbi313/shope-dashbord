@@ -70,6 +70,9 @@
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
+.td-classe{
+    max-width: 60px;
+}
 
 .td-user-class{
     display: flex;
@@ -205,4 +208,16 @@
         margin-top: -10px;
         margin-bottom: 30px;
     }
+}
+.p-class{
+    max-width: 250px;
+    white-space: normal;
+    word-break: break-word;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.td-classemail{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
 }
