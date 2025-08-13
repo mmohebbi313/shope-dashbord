@@ -42,7 +42,8 @@
 }
 .productInfoBottom{
     margin-bottom: 2vw;
-    width: 70vw;
+    width: 65vw;
+    margin-left: -7vw;
 }
 .productInfoKey{
     width: fit-content;
@@ -54,7 +55,12 @@
 .productInfoTop{
     margin-top: 2vw;
 }
-
+.productTopRight {
+    padding: 0px 2vw 0px 2vw;
+    margin: 20px;
+    width: 70vw;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
 }
 
 .productTopLeft{
