@@ -57,7 +57,7 @@
 }
 .productTopRight {
     padding: 0px 2vw 0px 2vw;
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
     width: 70vw;
     box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
 }
