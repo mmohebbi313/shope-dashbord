@@ -23,6 +23,39 @@
 .productTop {
     display: flex;
 }
+@media( max-width : 767px){
+    .productTop {
+    display: flex;
+    flex-direction: column;
+}
+.productForm{
+    flex-direction: column;
+}
+.productUploader{
+    justify-content: center;
+    margin: 10px  0px ;
+}
+.productInfoItem {
+    display: flex;
+    /* flex-direction: column; */
+    width: fit-content;
+}
+.productInfoBottom{
+    margin-bottom: 2vw;
+    width: 70vw;
+}
+.productInfoKey{
+    width: 20vw;
+}
+.productInfoValue {
+    position: absolute;
+    margin-left: 60vw;
+}
+.productInfoTop{
+    margin-top: 2vw;
+}
+
+}
 
 .productTopLeft{
     width: 10%;

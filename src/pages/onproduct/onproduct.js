@@ -11,6 +11,8 @@ export default function OnProduct (){
        
          let productId = idProduct
 
+         let sizePage = window.innerWidth
+
          const show = products.find( dada => dada.id == productId.productId)  
        
     return (
@@ -19,20 +21,20 @@ export default function OnProduct (){
 
         <div className='product'>
     
-            <div className='productTitleContainer'>
+            {/* <div className='productTitleContainer'>
                 <h1 className='productTitle'>Product</h1>
                 <Link to="/newProduct">
                     <button className='productAddButton'>Create</button>
                 </Link>
             </div>
-    
+     */}
             <div className="productTop">
     
-              <div className="productTopLeft">
+               <div className={sizePage <= 767 ? "" : "productTopLeft"}>
                 <Chart title="Sale In Month" data={show.analiz} datakey="sales" />
-              </div>
+              </div> 
     
-              <div className="productTopRight">
+               <div className="productTopRight">
                 <div className="productInfoTop">
                   <img src='/img/myimg.jpg'  alt="Dell LapTop" className='productInfoImg' />
                   <span className='productName'>{show.title}</span>
@@ -62,10 +64,10 @@ export default function OnProduct (){
                 </div>
     
               </div>
-    
+     
             </div>
              
-            <div className="productBottom">
+             <div className="productBottom">
           <form className="productForm">
 
             <div className='productFormLeft'>
@@ -101,7 +103,7 @@ export default function OnProduct (){
             </div>
 
           </form>
-        </div>
+        </div> 
 
         </div>
       )
