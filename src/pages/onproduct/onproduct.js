@@ -21,13 +21,13 @@ export default function OnProduct (){
 
         <div className='product'>
     
-            {/* <div className='productTitleContainer'>
+            <div className='productTitleContainer'>
                 <h1 className='productTitle'>Product</h1>
                 <Link to="/newProduct">
                     <button className='productAddButton'>Create</button>
                 </Link>
             </div>
-     */}
+     
             <div className="productTop">
     
                <div className={sizePage <= 767 ? "" : "productTopLeft"}>
