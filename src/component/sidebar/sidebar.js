@@ -27,13 +27,15 @@ export default function SideBar (){
                        Home
                     </li>
                     </NavLink>
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <IoAnalyticsSharp/>
                         Analiytics
+                        <p style={{fontSize:"10px"}}>Developing...</p>
                     </li>
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <RiCashLine/>
-                        Sales
+                        Sales  <p style={{fontSize:"10px"}}>Developing...</p>
+
                     </li>
                 </ul>
             </div>
@@ -48,24 +50,28 @@ export default function SideBar (){
                     </li>
                     </NavLink>
                     <NavLink to='/newuser' className="link">
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <LuUserPlus/>
-                        New User
+                        New User  <p style={{fontSize:"10px"}}>Developing...</p>
+
                     </li>
                     </NavLink>
                     <NavLink to='/product' className="link">
                     <li className="li-div">
                         <AiOutlineProduct/>
-                        Prouducts
+                        Prouducts  
+
                     </li>
                     </NavLink>
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <GrTransaction/>
-                        Transaction
+                        Transaction   <p style={{fontSize:"10px"}}>Developing...</p>
+
                     </li>
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <VscReport/>
-                        Reports
+                        Reports   <p style={{fontSize:"10px"}}>Developing...</p>
+
                     </li>
                 </ul>
             </div>
@@ -73,17 +79,18 @@ export default function SideBar (){
             <div className="group-div">
                 <h3 className="h3-div">Notification</h3>
                 <ul className="ul-div">
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <GoMail/>
-                        Mail
+                        Mail  <p style={{fontSize:"10px"}}>Developing...</p>
+
                     </li>
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <VscFeedback/>
-                        Feedback
+                        Feedback <p style={{fontSize:"10px"}}>Developing...</p>
                     </li>
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <FiMessageSquare/>
-                        Meassage
+                        Meassage <p style={{fontSize:"10px"}}>Developing...</p>
                     </li>
                 </ul>
             </div>
@@ -91,17 +98,17 @@ export default function SideBar (){
             <div className="group-div">
                 <h3 className="h3-div">Staff</h3>
                 <ul className="ul-div">
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <MdManageHistory/>
-                        Manage
+                        Manage <p style={{fontSize:"10px"}}>Developing...</p>
                     </li>
-                    <li className="li-div">
+                    <li className="li-div unActive">
                         <IoAnalyticsSharp/>
-                        Analytics
+                        Analytics <p style={{fontSize:"10px"}}>Developing...</p>
                     </li>
-                    <li className="li-div">
+                    <li className="li-div unActive">
                     <VscReport/>
-                        Reports
+                        Reports <p style={{fontSize:"10px"}}>Developing...</p>
                     </li>
                 </ul>
             </div>

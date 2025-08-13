@@ -19,7 +19,8 @@
 @media( max-width: 767px){
   .side{
     position: absolute;
-    margin-left: -30vw;
+    margin-left: -50vw;
+    transition: all 0.3s ease;
   }
   .show{
     height: 100%;
@@ -28,6 +29,7 @@
     margin-top: -1vw;
     margin-left: 0;
     z-index: 998;
+    transition: all 0.3s ease;
   }
 
 }

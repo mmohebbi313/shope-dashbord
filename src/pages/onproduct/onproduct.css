@@ -45,7 +45,7 @@
     width: 70vw;
 }
 .productInfoKey{
-    width: 20vw;
+    width: fit-content;
 }
 .productInfoValue {
     position: absolute;
