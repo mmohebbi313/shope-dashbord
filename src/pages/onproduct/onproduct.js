@@ -1,12 +1,22 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { productsData } from '../../datas'
 import Chart from "../../component/chart/chart";
 import './onproduct.css'
 import { MdFileUpload } from "react-icons/md";
-
+import { products } from "../../datas";
 export default function OnProduct (){
+
+         let  idProduct  = useParams()        
+       
+         let productId = idProduct
+
+         const show = products.find( dada => dada.id == productId.productId)  
+       
     return (
+
+
+
         <div className='product'>
     
             <div className='productTitleContainer'>
@@ -19,35 +29,35 @@ export default function OnProduct (){
             <div className="productTop">
     
               <div className="productTopLeft">
-                <Chart title="Sale In Month" data={productsData} datakey="sales" />
+                <Chart title="Sale In Month" data={show.analiz} datakey="sales" />
               </div>
     
               <div className="productTopRight">
                 <div className="productInfoTop">
                   <img src='/img/myimg.jpg'  alt="Dell LapTop" className='productInfoImg' />
-                  <span className='productName'>Dell LapTop</span>
+                  <span className='productName'>{show.title}</span>
                 </div>
     
                 <div className="productInfoBottom">
                   <div className="productInfoItem">
                     <div className="productInfoKey">ID: </div>
-                    <div className="productInfoValue">132</div>
+                    <div className="productInfoValue">{show.id}</div>
                   </div>
                   <div className="productInfoItem">
                     <div className="productInfoKey">Name: </div>
-                    <div className="productInfoValue">Dell Laptop</div>
+                    <div className="productInfoValue">{show.title}</div>
                   </div>
                   <div className="productInfoItem">
                     <div className="productInfoKey">Sales: </div>
-                    <div className="productInfoValue">$90000</div>
+                    <div className="productInfoValue">{show.sales}</div>
                   </div>
                   <div className="productInfoItem">
                     <div className="productInfoKey">Active: </div>
-                    <div className="productInfoValue">Yes</div>
+                    <div className="productInfoValue">{show.active}</div>
                   </div>
                   <div className="productInfoItem">
                     <div className="productInfoKey">In Stock: </div>
-                    <div className="productInfoValue">No</div>
+                    <div className="productInfoValue">{show.stock}</div>
                   </div>
                 </div>
     
@@ -60,7 +70,7 @@ export default function OnProduct (){
 
             <div className='productFormLeft'>
               <label>Product Name</label>
-              <input type="text" placeholder='Dell Laptop' />
+              <input type="text" placeholder={show.title} />
 
               <label>In Stock</label>
               <select id="inStock">
@@ -95,4 +105,7 @@ export default function OnProduct (){
 
         </div>
       )
+
+      
 }
+

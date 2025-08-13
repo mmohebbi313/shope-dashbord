@@ -210,11 +210,11 @@
     }
 }
 .p-class{
-    max-width: 250px;
+    max-width: 27vw;
     white-space: normal;
     word-break: break-word;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
 }
 .td-classemail{
     text-align: center;

@@ -147,25 +147,93 @@ let products = [
         id: 1,
         title: 'Asus',
         avatar: 'img/myimg.jpg',
-        price: 890
+        price: 890,
+        sales: 670035,
+        active: "yes",
+        stock: "yes",
+        analiz: [
+    {
+        name: 'Jan',
+        sales: 4000,
+    },
+    {
+        name: 'Feb',
+        sales: 3000,
+    },
+    {
+        name: 'Mar',
+        sales: 5000,
+    },
+]
     },
     {
         id: 2,
         title: 'Acer',
         avatar: 'img/myimg.jpg',
-        price: 890
+        price: 890,
+        sales: 450031,
+        active: "yes",
+        stock: "yes",
+        analiz: [
+    {
+        name: 'Jan',
+        sales: 9000,
+    },
+    {
+        name: 'Feb',
+        sales: 2000,
+    },
+    {
+        name: 'Mar',
+        sales: 1000,
+    },
+]
     },
     {
         id: 3,
         title: 'HP',
         avatar: 'img/myimg.jpg',
-        price: 890
+        price: 890,
+        sales: 390091,
+        active: "yes",
+        stock: "yes",
+        analiz: [
+    {
+        name: 'Jan',
+        sales: 1000,
+    },
+    {
+        name: 'Feb',
+        sales: 8000,
+    },
+    {
+        name: 'Mar',
+        sales: 5000,
+    },
+]
     },
     {
         id: 4,
         title: 'Dell',
         avatar: 'img/myimg.jpg',
-        price: 890
+        price: 890,
+        sales: 990031,
+        active: "yes",
+        stock: "yes",
+        analiz: [
+    {
+        name: 'Jan',
+        sales: 0,
+    },
+    {
+        name: 'Feb',
+        sales: 7000,
+    },
+    {
+        name: 'Mar',
+        sales: 3000,
+    },
+]
     },
 ]
 
