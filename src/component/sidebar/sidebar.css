@@ -6,7 +6,7 @@
     height: 100vh;
 }
 .unActive{
-    background-color: rgba(252, 4, 4, 0.16);
+    background-color: rgba(255, 0, 0, 0.204);
     color: white;
 }
 @media ( max-width: 767px) {
