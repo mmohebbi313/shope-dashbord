@@ -35,11 +35,11 @@
     justify-content: center;
     margin: 10px  0px ;
 }
-.productInfoItem {
+ .productInfoItem {
     display: flex;
     /* flex-direction: column; */
     width: fit-content;
-}
+} 
 .productInfoBottom{
     margin-bottom: 2vw;
     width: 65vw;
@@ -114,6 +114,13 @@
     display: flex;
     justify-content: space-between;
 }
+@media( max-width : 767px){
+    .productInfoItem {
+    display: flex;
+    /* flex-direction: column; */
+    width: fit-content;
+} 
+} 
 
 .productInfoKey {
     font-weight: 600;
