@@ -39,7 +39,7 @@ export default function OnProduct (){
                 
                  <div className="productTopRight">
                 <div className="productInfoTop">
-                  <img src='/img/myimg.jpg'  alt="Dell LapTop" className='productInfoImg' />
+                  <img  src={show.avatar} alt="Dell LapTop" className='productInfoImg' />
                   <span className='productName'>{show.title}</span>
                 </div> 
     
@@ -99,7 +99,7 @@ export default function OnProduct (){
             <div className='productFormRight'>
 
               <div className='productUploader'>
-                <img src="/img/myimg.jpg" alt="profile photo" className='productUploaderImg' />
+                <img src={show.avatar} alt="profile photo" className='productUploaderImg' />
                 <label>
                   < MdFileUpload />
                 </label>

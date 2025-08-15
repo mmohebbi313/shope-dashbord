@@ -67,7 +67,7 @@ let Members = [
 const transactions = [
     {
         id: 1,
-        customer: "Arta Khosravani",
+        customer: "Babak Khosravani",
         date: '12 Jun 2022',
         amount: 123,
         status: 'Approved',
@@ -75,11 +75,11 @@ const transactions = [
     },
     {
         id: 2,
-        customer:  "Mohammad Babai",
+        customer:  "Mohammad Alliabadi",
         date: '23 Jul 2022',
         amount: 123,
         status: 'Declined',
-        img: "img/babi.jpg"
+        img: "img/alliabadi.jpg"
     },
     {
         id: 3,
@@ -146,7 +146,7 @@ let products = [
     {
         id: 1,
         title: 'Asus',
-        avatar: 'img/myimg.jpg',
+        avatar: 'img/asus.jpg',
         price: 890,
         sales: 670035,
         active: "yes",
@@ -169,7 +169,7 @@ let products = [
     {
         id: 2,
         title: 'Acer',
-        avatar: 'img/myimg.jpg',
+        avatar: 'img/acer.jpg',
         price: 890,
         sales: 450031,
         active: "yes",
@@ -192,7 +192,7 @@ let products = [
     {
         id: 3,
         title: 'HP',
-        avatar: 'img/myimg.jpg',
+        avatar: 'img/hp.webp',
         price: 890,
         sales: 390091,
         active: "yes",
@@ -215,7 +215,7 @@ let products = [
     {
         id: 4,
         title: 'Dell',
-        avatar: 'img/myimg.jpg',
+        avatar: 'img/dell.jpg',
         price: 890,
         sales: 990031,
         active: "yes",
