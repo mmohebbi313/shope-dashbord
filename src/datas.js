@@ -71,15 +71,15 @@ const transactions = [
         date: '12 Jun 2022',
         amount: 123,
         status: 'Approved',
-        img: "img/arta.jpg"
+        img: "img/babak.jpg"
     },
     {
         id: 2,
-        customer:  "Mohammad Alliabadi",
+        customer:  "Mohammad Aliabadi",
         date: '23 Jul 2022',
         amount: 123,
         status: 'Declined',
-        img: "img/alliabadi.jpg"
+        img: "img/aliabadi.jpg"
     },
     {
         id: 3,
