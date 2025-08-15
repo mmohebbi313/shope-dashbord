@@ -55,11 +55,11 @@
 .productInfoTop{
     margin-top: 2vw;
 }
-.productTopRight {
+/* .productTopRight {
     padding: 0px 2vw 0px 2vw;
-    margin: 0px;
+    margin: 1px;
     box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
-}
+} */
 }
 
 .productTopLeft{
@@ -81,6 +81,13 @@
     box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
 }
 
+@media( max-width : 767px){
+   .productTopRight {
+   padding: 0px 2vw 0px 2vw;
+    margin: 0px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+} 
+}
 .productInfoTop {
     display: flex;
     align-items: center;
