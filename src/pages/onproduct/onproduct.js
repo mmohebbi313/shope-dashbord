@@ -36,7 +36,7 @@ export default function OnProduct (){
 
                
               
-    
+                
                  <div className="productTopRight">
                 <div className="productInfoTop">
                   <img src='/img/myimg.jpg'  alt="Dell LapTop" className='productInfoImg' />
@@ -67,7 +67,8 @@ export default function OnProduct (){
                   </div>
                 </div>
     
-              </div> 
+               
+              </div>
      
 
 
