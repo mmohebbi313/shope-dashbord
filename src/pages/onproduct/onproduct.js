@@ -34,11 +34,11 @@ export default function OnProduct (){
                 <Chart title="Sale In Month" data={show.analiz} datakey="sales" />
               </div> 
     
-               {/* <div className="productTopRight">
+                {/* <div className="productTopRight">
                 <div className="productInfoTop">
                   <img src='/img/myimg.jpg'  alt="Dell LapTop" className='productInfoImg' />
                   <span className='productName'>{show.title}</span>
-                </div> */}
+                </div> 
     
     
                 <div className="productInfoBottom">
@@ -64,7 +64,7 @@ export default function OnProduct (){
                   </div>
                 </div>
     
-              </div>
+              </div> */}
      
             </div>
              
