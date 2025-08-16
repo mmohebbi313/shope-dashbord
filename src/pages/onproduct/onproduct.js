@@ -13,11 +13,9 @@ export default function OnProduct (){
 
          let sizePage = window.innerWidth
 
-         const show = products.find( dada => dada.id == productId.productId)  
-       
+         const show = products.find( dada => dada.id == productId.productId)         
+         
     return (
-
-
 
         <div className='product'>
     
@@ -36,10 +34,9 @@ export default function OnProduct (){
 
                
               
-                
                  <div className="productTopRight">
                 <div className="productInfoTop">
-                  <img  src={show.avatar} alt="Dell LapTop" className='productInfoImg' />
+                 <img  src={show.avatar}  alt="Dell LapTop" className='productInfoImg' /> 
                   <span className='productName'>{show.title}</span>
                 </div> 
     
