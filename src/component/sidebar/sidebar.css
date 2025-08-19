@@ -49,3 +49,7 @@
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.active{
+ background-color: blue;
+ color: white;
+}

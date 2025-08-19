@@ -7,7 +7,7 @@ export default function Chart({title , grid , data , datakey}){
     let [spect , setSpect] = useState(4)
     let size = window.innerWidth 
     useEffect( ()=> {
-       if(size <= 767){
+       if(size <= 1024){
         setSpect(2)
        }
     }, [size])

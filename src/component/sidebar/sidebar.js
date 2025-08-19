@@ -21,7 +21,7 @@ export default function SideBar (){
             <div className="group-div">
                 <h3 className="h3-div">Dashbord</h3>
                 <ul className="ul-div">
-                    <NavLink to='/' className="link">
+                    <NavLink to='/' className={ ({isActive}) => isActive ? "active" : "link"}>
                     <li className="li-div">
                         <RiHomeLine/>
                        Home
@@ -43,7 +43,7 @@ export default function SideBar (){
             <div className="group-div">
                 <h3 className="h3-div">Quik Menu</h3>
                 <ul className="ul-div">
-                    <NavLink to='/users' className="link">
+                    <NavLink to='/users' className={ ({isActive}) => isActive ? "active" : "link"}>
                     <li className="li-div">
                         <LuUser/>
                         Users
@@ -56,7 +56,7 @@ export default function SideBar (){
 
                     </li>
                     </NavLink>
-                    <NavLink to='/product' className="link">
+                    <NavLink to='/product' end className={ ({isActive}) => isActive ? "active" : "link"} >
                     <li className="li-div">
                         <AiOutlineProduct/>
                         Prouducts  
